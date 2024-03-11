@@ -68,7 +68,6 @@ document.getElementById('show-all-foods-btn').addEventListener('click', function
 
 document.getElementById('search-btn').addEventListener('click', (event) => {
 
-    alert("Hello")
     const userGivenCategory = event.target.parentNode.childNodes[3].value;
     loadData(userGivenCategory);
     event.target.parentNode.childNodes[3].value = '';
